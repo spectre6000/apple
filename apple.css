@@ -1,0 +1,251 @@
+/* font declarations */
+
+@font-face {
+  font-family: apple-bold;
+  src: url("resources/font/myriad-set-pro_bold.ttf");
+}
+
+@font-face {
+  font-family: apple-medium;
+  src: url("resources/font/myriad-set-pro_medium.ttf");
+}
+
+@font-face {
+  font-family: apple-semibold;
+  src: url("resources/font/myriad-set-pro_semibold.ttf");
+}
+
+@font-face {
+  font-family: apple-text;
+  src: url("resources/font/myriad-set-pro_text.ttf");
+}
+
+@font-face {
+  font-family: apple-thin;
+  src: url("resources/font/myriad-set-pro_thin.ttf");
+}
+
+@font-face {
+  font-family: apple-ultralight;
+  src: url("resources/font/myriad-set-pro_ultralight.ttf");
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+  #nav_background {
+    width: 100%;
+    height: 45px;
+    background-color: #000;
+    opacity: .5;
+  }
+
+  #nav-links {
+    position: relative;
+    top: -45px;
+    width: 70%;
+    margin: 7px 14% 13px auto;
+  }
+
+  .nav-link {
+    display: inline-block;
+    margin: 0 -.5%;
+    opacity: 1;
+  }
+
+    .nav-link:first-of-type {
+      margin-right: 3.5%;
+    }
+
+    .nav-link:last-of-type {
+      margin-left: 3.5%;
+    }
+
+main {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 100%;
+}
+
+  #main_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 700px;
+    width: 100%;
+    background-image: url("resources/images/music_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -100;
+  }
+  
+  #main_content {
+    width: 40%;
+    height: 200px;
+    margin: 16% 26% 16% 34%;
+  }
+
+    #main_content img {
+      padding-left: 15%;
+      padding-top: 1%;
+    }
+
+    #main_content h1 {
+      font-family: apple-ultralight;
+      color: #fff;
+      font-size: 2em;
+      padding-top: 4%;
+      padding-left: 2%
+    }
+
+      #main_content h1 span {
+        position: relative;
+        font-family: apple-ultralight;
+        color: #fff;
+        font-size: .4em;
+        top: -.9em;
+      }
+
+    #main_content h2 {
+      display: inline-block;
+      font-family: apple-ultralight;
+      color: #fff;
+      font-size: 1.2em;
+      padding-top: 3%;
+      padding-left: 4%;
+    }
+
+  #dots {
+    position: absolute;
+    width: 16%;
+    left: 45.5%;
+    margin-top: -4%;
+    /*top: 5%;*/
+  }
+
+    .dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: .5;
+      margin: 0 3%;
+    }
+
+    #highlighted-dot {
+      background-color: #555;
+      border: 1px solid #08c;
+    }
+
+#promo_section {
+  width: 100%;
+  background-color: #fff;
+  margin-top: -1%;
+}
+  
+  .promo_container {
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    border-top: 2px solid #fff;
+    overflow: hidden;
+    margin-left: -3px
+  }
+
+    .promo {
+      height: 100%;
+      margin-left: -40%;
+    }
+
+#recall {
+  width: 980px;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  margin-left: auto;
+  margin-right: auto; 
+}
+  
+  #recall_text {
+    position: relative;
+    left: 35%;
+    top: 40%;
+    font-family: apple-text;
+    font-size: 1.2em;
+    color: #08c;
+  }
+
+#disclaimer {
+  width: 980px;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+  .tiny-type {
+    font-family: apple-thin;
+    width: 90%;
+    font-size: .75em;
+    color: #aaa;
+    padding-top: 15px;
+  }
+
+footer {
+  width: 980px;
+  height: 80px;
+    margin-left: auto;
+  margin-right: auto; 
+}
+
+  .divider {
+    display: inline-block;
+  }
+
+  footer span {
+    color: #888;
+    font-family: apple-text;
+    font-size: .8em;
+  }
+
+  footer p {
+    color: #aaa;
+    font-family: apple-text;
+    font-size: .8em;
+  }
+
+  #footer_left {
+    float: left;
+    position: relative;
+    top: 20px;
+  }
+
+    #fl-bottom {
+      margin-top: 10px;
+    }
+
+    #terms {
+      position: relative;
+      top: -1em;
+      left: 1em;
+      float: right;
+    }
+
+  .footer_right {
+    float: right;
+    margin-top: 15px;
+  }
+
+    #US {
+      position: relative;
+      top: 3px;
+      width: 15px;
+    }
+
